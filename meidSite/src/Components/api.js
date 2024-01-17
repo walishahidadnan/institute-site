@@ -1,5 +1,4 @@
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.js"></script>
-<script>
+
 document.addEventListener('DOMContentLoaded', function () {
 
     const textArea = document.getElementById('Message');
@@ -197,7 +196,6 @@ document.addEventListener('DOMContentLoaded', function () {
         })
         .catch(error => console.error('Error fetching data for trial calendar:', error));
 });
-</script>
 
 
 
@@ -205,8 +203,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.js"></script>
-<script>
+
     document.addEventListener('DOMContentLoaded', function () {
 
         const textArea = document.getElementById('Message');
@@ -338,4 +335,3 @@ document.addEventListener('DOMContentLoaded', function () {
             })
             .catch(error => console.error('Error fetching data for trial results:', error));
     });
-</script>
