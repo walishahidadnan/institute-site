@@ -7,13 +7,13 @@ function OneTwoGO(name: string){
     console.log(one, two)
 }
 
-// let myname:string = 'shahidadnan';
-// let Num = 5;
-// let Num2 = 7;
+let myname:string = 'shahidadnan';
+let Num = 5;
+let Num2 = 7;
 
-// let Result:number = Num ^ Num2
+let Result:number = Num ^ Num2
 
-// console.log(Result, myname)
+console.log(Result, myname)
 
 function greet (a: string, b:number): string {
     return `your userName is ${a} and id is ${b}`
