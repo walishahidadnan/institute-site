@@ -23,6 +23,3 @@ let result:string = greet('shahid', 2)
 console.log(result)
 export {};
 
-
-const ary = [1,3,5,6];
-console.log(ary)
